@@ -6,15 +6,17 @@ body{
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:250px;
+  text-align: center;
 }
 .navbar{
   background-color: #ffffff;
   border-bottom: solid 2px #cccccc;
-  height:50px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  min-height:50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .nav-item{
   color: darkgray;
@@ -54,12 +56,14 @@ img{
   flex: 1 0 auto;
 }
 footer{
-  background-color: #666666;
-  height: 50px;
-  border-top: solid 10px #4aaaa5;
-  flex: 0 0 auto;
-  color:#777777;
-  font-size: 12px;
+  padding: 30px 0;
+ clear: both;
+ font-size: 12px;
+ color: #fff;
+ color: #ccc;
+ text-align: center;
+ background: #666;
+ border-top: 8px solid #4aaaa5;
 }
 .description_content{
   color:white;
@@ -69,4 +73,25 @@ footer{
 }
 img.container{
   padding:0px;
+}
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
